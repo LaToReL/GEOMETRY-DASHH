@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.paint{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header input{
+    width: 25%;
+}
+.header button{
+    width: 10%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+#canvas{
+    width: 100%;
+    height: 100%
+}
+.sliders{
+display: flex;
+flex-wrap: wrap;
+width: 25%;
+}
+.sliders input{
+    width: 75%;
+}
